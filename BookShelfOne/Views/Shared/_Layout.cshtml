@@ -9,32 +9,34 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
+    <div class="row">
+        <div class="column">
+            
+            <img src="~/Content/Images/img_snow.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+
+            <img src="~/Content/Images/img_forest.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+
+            <img src="~/Content/Images/img_mountains.jpg"alt="Mountains" style="width:100%">
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        <div class="row">
+            <div class="column">
+                <img src="~/Content/Images/img_bookRow.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="~/Content/Images/img_bookStack.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="~/Content/Images/img_bookHeart.jpg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")

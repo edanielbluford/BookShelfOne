@@ -215,6 +215,13 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\img_bookHeart.jpg" />
+    <Content Include="Content\Images\img_bookRow.jpg" />
+    <Content Include="Content\Images\img_bookStack.jpg" />
+    <Content Include="Content\Images\img_forest.jpg" />
+    <Content Include="Content\Images\img_mountains.jpg" />
+    <Content Include="Content\Images\img_snow.jpg" />
+    <Content Include="Content\Images\Landing Page Background.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
